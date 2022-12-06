@@ -1,0 +1,32 @@
+#div_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4px;
+    min-height: 100vh;
+}
+.container{
+    margin: 10px;
+    background-color: rgba(255, 221, 0, 0.382);
+    border-radius: 50px;
+}
+.container button,input{
+    border-radius: 25px;
+}
+
+section{
+    background-image: url("../components/Los_Simpson_Serie_de_TV-397676780-large.jpg");
+   
+}
+
+.tamaño_card{
+    width: 300px;
+    height: 500px;
+    background-color: rgba(255,255,255, 0.7);
+    backdrop-filter: blur(14px);
+}
+.card img {
+    height: 100%;
+}
